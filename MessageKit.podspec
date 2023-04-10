@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/_SD10_'
   s.author           = { 'Steven Deutsch' => 'stevensdeutsch@yahoo.com' }
   
-  s.source           = { :git => 'https://github.com/MessageKit/MessageKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:borrrrring/MessageKit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '12.0'
 
