@@ -34,6 +34,22 @@
 
 ## Installation
 
+### [CocoaPods](https://cocoapods.org/) **Recommended** (Need Copy 'Sources/Assets.xcassets/Colors' to MainBundle)
+```ruby
+# Swift 5.5
+pod 'MessageKit'
+```
+> For Swift 5.0 use version 3.3.0
+```ruby
+# Swift 5.0
+pod 'MessageKit', '~> 3.3.0'
+```
+> For Swift 4.2 use version 3.0.0
+```ruby
+# Swift 4.2
+pod 'MessageKit', '~> 3.0.0'
+```
+
 ### [Swift Package Manager](https://swift.org/package-manager/) - **Recommended**
 
 Swift 5.3 in Xcode 12 [added support](https://github.com/apple/swift-evolution/blob/master/proposals/0271-package-manager-resources.md) for assets in Swift Packages.

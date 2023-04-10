@@ -49,7 +49,7 @@ extension UIColor {
   // MARK: Private
 
   private static func colorFromAssetBundle(named: String) -> UIColor {
-    guard let color = UIColor(named: named, in: Bundle.messageKitAssetBundle, compatibleWith: nil) else {
+    guard let color = UIColor(named: named) else {
       fatalError(MessageKitError.couldNotFindColorAsset)
     }
     return color
